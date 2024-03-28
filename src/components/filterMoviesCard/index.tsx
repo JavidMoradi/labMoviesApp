@@ -7,8 +7,9 @@ import MenuItem from "@mui/material/MenuItem";
 import TextField from "@mui/material/TextField";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import SortIcon from "@mui/icons-material/Sort";
-import { FilterOption } from "../../types";
+import { FilterOption } from "../../types/interfaces";
 import { SelectChangeEvent } from "@mui/material";
+import { getGenres } from "../../api/tmdb-api";
 
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
